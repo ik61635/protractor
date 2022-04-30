@@ -1,0 +1,140 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "To test email functionality for gmail",
+    "line": 1,
+    "id": "to-test-email-functionality-for-gmail",
+    "tags": [],
+    "uri": "features\\e2e.feature",
+    "elements": [
+      {
+        "id": "to-test-email-functionality-for-gmail;email-functionality-for-gmail",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "email functionality for gmail",
+        "tags": [
+          {
+            "name": "@CucumberScenario",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I have logged into gmail account",
+            "match": {
+              "location": "typeScript\\e2e\\test-suites\\regression.e2e-spec.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7296000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I compose new email",
+            "match": {
+              "location": "typeScript\\e2e\\test-suites\\regression.e2e-spec.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 55846000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I have provided email address subject body and attachment",
+            "match": {
+              "location": "typeScript\\e2e\\test-suites\\regression.e2e-spec.js:33"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6508000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I have labeled email as social",
+            "match": {
+              "location": "typeScript\\e2e\\test-suites\\regression.e2e-spec.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17090000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "I have send a email",
+            "match": {
+              "location": "typeScript\\e2e\\test-suites\\regression.e2e-spec.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12779000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I have click on social label",
+            "match": {
+              "location": "typeScript\\e2e\\test-suites\\regression.e2e-spec.js:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5567000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Verify the subject mail body email address and attachment",
+            "match": {
+              "location": "typeScript\\e2e\\test-suites\\regression.e2e-spec.js:57"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 17091000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "typeScript\\support\\hooks.js:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
